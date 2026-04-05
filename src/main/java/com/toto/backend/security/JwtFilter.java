@@ -1,6 +1,6 @@
 package com.toto.backend.security;
 
-import com.toto.backend.service.CustomUserDetails;
+import com.toto.backend.service.impl.CustomUserDetails;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
