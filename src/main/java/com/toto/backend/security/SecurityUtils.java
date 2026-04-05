@@ -1,6 +1,6 @@
 package com.toto.backend.security;
 
-import com.toto.backend.service.CustomUserDetails;
+import com.toto.backend.service.impl.CustomUserDetails;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 
