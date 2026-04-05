@@ -158,9 +158,9 @@ public class EmployeeServiceImpl implements EmployeeService {
         addField(details, "Giới tính", "gender", emp.getGender(), "dropdown", false, configMap, pendingMap);
         addField(details, "Dân tộc", "ethnicity", emp.getEthnicity(), "dropdown", false, configMap, pendingMap);
         addField(details, "Tỉnh/TP thường trú", "province", emp.getProvince(), "dropdown", false, configMap, pendingMap);
-        addField(details, "Quận/Huyện thường trú", "district", emp.getDistrict(), "dropdown", false, configMap, pendingMap);
+        addField(details, "Phường/Xã thường trú", "district", emp.getDistrict(), "dropdown", false, configMap, pendingMap);
         addField(details, "Tỉnh/TP tạm trú", "tempProvince", emp.getTempProvince(), "dropdown", false, configMap, pendingMap);
-        addField(details, "Quận/Huyện tạm trú", "tempDistrict", emp.getTempDistrict(), "dropdown", false, configMap, pendingMap);
+        addField(details, "Phường/Xã tạm trú", "tempDistrict", emp.getTempDistrict(), "dropdown", false, configMap, pendingMap);
         addField(details, "Mã số thuế", "taxCode", emp.getTaxCode(), "text", false, configMap, pendingMap);
         addField(details, "Số tài khoản ngân hàng", "bankAccount", emp.getBankAccount(), "text", false, configMap, pendingMap);
         addField(details, "Tên ngân hàng", "bankName", emp.getBankName(), "dropdown", false, configMap, pendingMap);

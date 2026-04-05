@@ -95,9 +95,9 @@ public class AdminServiceImpl implements AdminService {
             case "Giới tính" -> emp.setGender(newValue);
             case "Dân tộc" -> emp.setEthnicity(newValue);
             case "Tỉnh/TP thường trú" -> emp.setProvince(newValue);
-            case "Quận/Huyện thường trú" -> emp.setDistrict(newValue);
+            case "Phường/Xã thường trú" -> emp.setDistrict(newValue);
             case "Tỉnh/TP tạm trú" -> emp.setTempProvince(newValue);
-            case "Quận/Huyện tạm trú" -> emp.setTempDistrict(newValue);
+            case "Phường/Xã tạm trú" -> emp.setTempDistrict(newValue);
             case "Mã số thuế" -> emp.setTaxCode(newValue);
             case "Số tài khoản ngân hàng" -> emp.setBankAccount(newValue);
             case "Tên ngân hàng" -> emp.setBankName(newValue);
